@@ -132,6 +132,6 @@ dmypy.json
 # Log file
 */log.txt
 */failed.txt
-
+*/.DS_Store
 
 

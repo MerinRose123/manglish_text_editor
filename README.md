@@ -13,8 +13,8 @@ transiteration program.
 
 # How to use
   * download or clone the repository.
-  * It is recommended to run the code in a separate virtua environment.
-  * If you want to create the database again or add extra malayalam words to the database run `python3 transiterator.py`
+  * It is recommended to run the code in a separate virtual environment.
+  * When you run the program for the first time the frequency table needs to get created. For that run `python3 transiterator.py`. Note that it is a time consuming operation. 
   * run `python3 main.py`. This will open the text editor in another window.
   * The text editor is self explanatory.
   
