@@ -14,6 +14,7 @@ transiteration program.
 # How to use
   * download or clone the repository.
   * It is recommended to run the code in a separate virtual environment.
+  * Get into the main folder `manglish_text_editor` by `cd manglish_text_editor` in terminal.
   * When you run the program for the first time the frequency table needs to get created. For that run `python3 transiterator.py`. Note that it is a time consuming operation. 
   * run `python3 main.py`. This will open the text editor in another window.
   * The text editor is self explanatory.
@@ -22,6 +23,7 @@ transiteration program.
 The program makes up a database of possible english typings of a malayalam word
 and then for each user input it tries to find a near match in the database and along with that 
 tries to create the original word.
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 The text editor is created using python package named tkinter.
 
