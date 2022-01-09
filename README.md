@@ -23,7 +23,8 @@ transiteration program.
 The program makes up a database of possible english typings of a malayalam word
 and then for each user input it tries to find a near match in the database and along with that 
 tries to create the original word.
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+![alt text](https://github.com/MerinRose123/manglish_text_editor/text_editor.png?raw=true)
 
 The text editor is created using python package named tkinter.
 
