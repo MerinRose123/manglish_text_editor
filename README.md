@@ -12,7 +12,7 @@ transiteration program.
   * The code requires tkinter to be installed. `pip install tk` command can be used for this.
 
 # How to use
-  * download or clone the repository.
+  * download or clone the repository using command `git clone <repo_address>`
   * It is recommended to run the code in a separate virtual environment.
   * Get into the main folder `manglish_text_editor` by `cd manglish_text_editor` in terminal.
   * When you run the program for the first time the frequency table needs to get created. For that run `python3 transiterator.py`. Note that it is a time consuming operation. 
@@ -24,7 +24,7 @@ The program makes up a database of possible english typings of a malayalam word
 and then for each user input it tries to find a near match in the database and along with that 
 tries to create the original word.
 
-![alt text](https://github.com/MerinRose123/manglish_text_editor/text_editor.png?raw=true)
+![Text editor image](https://github.com/MerinRose123/manglish_text_editor/blob/main/text_editor.png?raw=true)
 
 The text editor is created using python package named tkinter.
 
