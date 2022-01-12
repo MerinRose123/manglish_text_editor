@@ -1,10 +1,10 @@
 # Manglish Text Editor
 
-This is a simple transiteration (romanization ) program which is used to convert manglish to malayalam (converts njaan 
+This is a simple transliteration (romanization ) program which is used to convert manglish to malayalam (converts njaan 
 to ഞാൻ ). It is aimed to help people who have difficulty in typing malayalam and who is good in typing English.
 
 Tkinter is used for text editor creation and simple database lookup along with frequency data is used for the 
-transiteration program.
+transliteration program.
 
 # Requirements
   * The system should have python3 installed. Ths system i tested on python 3.8.
