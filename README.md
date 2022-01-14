@@ -33,14 +33,11 @@ The text editor is created using python package named tkinter.
  * The text editor has options file save, open, save as, new etc.
 
 # Future Scope
-  1. Improve tokenizing
-  2. use a better method to remove noise
-  3. Improve learning algorithm
-  4. In text editor add malayalam key board, conversion of an entire file at once, Delete file
-  5. Give option to the user to select from the possible list of words on backspace press.
-  6. Add bold, text space, font, points to the text editor.
-  7. Add feature to convert malayalam to manglish.
-  8. Add option select all, search, replace etc.
+ 1. Improve learning algorithm
+ 2. In text editor add malayalam key board, conversion of an entire file at once, Delete file
+ 3. Give option to the user to select from the possible list of words on backspace press.
+ 4. Add feature to convert malayalam to manglish.
+ 5. Add option select all, points, new window etc.
 
 # Contributions
  * Pull requests are welcome. If someone wants to contribute to this project can fork and add the Functionalities.
