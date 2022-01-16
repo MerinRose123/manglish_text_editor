@@ -32,45 +32,45 @@ class MyApp(Tk):
         # Font Box
         font_tuple = font.families()
         self.font_family = tk.StringVar()
-        font_box = ttk.Combobox(tool_bar, width=30, textvariable=self.font_family, state="readonly")
+        font_box = ttk.Combobox(tool_bar, width=20, textvariable=self.font_family, state="readonly")
         font_box["values"] = font_tuple
         font_box.current(font_tuple.index("Arial"))
-        font_box.grid(row=0, column=0, padx=5)
+        font_box.grid(row=0, column=0, padx=3)
 
         # Size Box
         self.size_var = tk.IntVar()
         font_size = ttk.Combobox(tool_bar, width=14, textvariable=self.size_var, state="readonly")
         font_size["values"] = tuple(range(8, 80, 2))
         font_size.current(3)  # 12 is at index 4
-        font_size.grid(row=0, column=1, padx=5)
+        font_size.grid(row=0, column=1, padx=3)
 
         # Bold Button.
         self.bold_btn = ttk.Button(tool_bar, text="bold")
-        self.bold_btn.grid(row=0, column=2, padx=5)
+        self.bold_btn.grid(row=0, column=2, padx=3)
 
         # Italic Button
         italic_btn = ttk.Button(tool_bar, text="italic")
-        italic_btn.grid(row=0, column=3, padx=5)
+        italic_btn.grid(row=0, column=3, padx=3)
 
         # underline button
         underline_btn = ttk.Button(tool_bar, text="underline")
-        underline_btn.grid(row=0, column=4, padx=5)
+        underline_btn.grid(row=0, column=4, padx=3)
 
         # Font color button
         font_color_btn = ttk.Button(tool_bar, text="font color")
-        font_color_btn.grid(row=0, column=5, padx=5)
+        font_color_btn.grid(row=0, column=5, padx=3)
 
         # align left button
         align_left_btn = ttk.Button(tool_bar, text="align left")
-        align_left_btn.grid(row=0, column=6, padx=5)
+        align_left_btn.grid(row=0, column=6, padx=3)
 
         # align center button
         align_center_btn = ttk.Button(tool_bar, text="align center")
-        align_center_btn.grid(row=0, column=7, padx=5)
+        align_center_btn.grid(row=0, column=7, padx=3)
 
         # align right button
         align_right_btn = ttk.Button(tool_bar, text="align right")
-        align_right_btn.grid(row=0, column=8, padx=5)
+        align_right_btn.grid(row=0, column=8, padx=3)
 
         # ------------------ end tool box ------------------------------
         # ------------------ text editor -------------------------------
